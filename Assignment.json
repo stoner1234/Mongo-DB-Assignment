@@ -1,0 +1,407 @@
+ 
+ [{
+
+  "address": {
+  
+  "building": "1007",
+  
+  "coord": [ -73.856077, 40.848447 ],
+  
+  "street": "Mall Road Mussorrie",
+  
+  "zipcode": "104642"
+  
+  },
+  
+  "cuisine": "Bakery",
+  
+  "grades": [
+  
+  { "date": { "$date": 1393804800000 }, "grade": "A", "score": 2 },
+  
+  { "date": { "$date": 1378857600000 }, "grade": "A", "score": 6 },
+  
+  { "date": { "$date": 1358985600000 }, "grade": "A", "score": 10 },
+  
+  { "date": { "$date": 1322006400000 }, "grade": "A", "score": 9 },
+  
+  { "date": { "$date": 1299715200000 }, "grade": "B", "score": 14 }
+  
+  ],
+  
+  "name": "Morris Bake Shop",
+  
+  "restaurant_id": "300754"
+  
+  }
+  ,
+    {
+      "address": {
+        "building": "3456",
+        "coord": [-73.9865384, 40.7523199],
+        "street": "Broadway",
+        "zipcode": "100317"
+      },
+      "cuisine": "American",
+      "grades": [
+        {"date": {"$date": 1621252800000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1609804800000}, "grade": "B", "score": 72},
+        {"date": {"$date": 1597641600000}, "grade": "A", "score": 91}
+      ],
+      "name": "Cafeteria Delight",
+      "restaurant_id": "741963"
+    },
+    {
+      "address": {
+        "building": "142",
+        "coord": [-74.0055242, 40.7308779],
+        "street": "Mulberry St",
+        "zipcode": "100133"
+      },
+      "cuisine": "Italian",
+      "grades": [
+        {"date": {"$date": 1632384000000}, "grade": "A", "score": 94},
+        {"date": {"$date": 1617427200000}, "grade": "A", "score": 84},
+        {"date": {"$date": 1592217600000}, "grade": "B", "score": 87}
+      ],
+      "name": "Cafeteria Ristorante",
+      "restaurant_id": "234567"
+    }
+    ,
+    {
+      "address": {
+        "building": "127",
+        "coord": [-73.9778378, 40.7852086],
+        "street": "W 72nd St",
+        "zipcode": "100235"
+      },
+      "cuisine": "Chinese",
+      "grades": [
+        {"date": {"$date": 1630684800000}, "grade": "A", "score": 86},
+        {"date": {"$date": 1616544000000}, "grade": "A", "score": 92},
+        {"date": {"$date": 1595481600000}, "grade": "B", "score": 88}
+      ],
+      "name": "Cafeteria Palace",
+      "restaurant_id": "345678"
+    }
+   ,
+   {
+    "address": {
+      "building": "123",
+      "coord": [-73.981697, 40.749775],
+      "street": "7th Ave",
+      "zipcode": "100017"
+    },
+    "cuisine": "Cafeteria",
+    "grades": [
+      {"date": {"$date": 1483232400000}, "grade": "A", "score": 92},
+      {"date": {"$date": 1467358800000}, "grade": "A", "score": 84},
+      {"date": {"$date": 1456088400000}, "grade": "B", "score": 95},
+      {"date": {"$date": 1437915600000}, "grade": "C", "score": 98}
+    ],
+    "name": "Cafeteria 123",
+    "restaurant_id": "123456"
+  }
+  ,
+  {
+    "address": {
+      "building": "234",
+      "coord": [-73.983453, 40.764632],
+      "street": "8th Ave",
+      "zipcode": "100119"
+    },
+    "cuisine": "American",
+    "grades": [
+      {"date": {"$date": 1556091600000}, "grade": "A", "score": 82},
+      {"date": {"$date": 1546300800000}, "grade": "A", "score": 93},
+      {"date": {"$date": 1538366400000}, "grade": "B", "score": 99}
+    ],
+    "name": "Cafeteria 234",
+    "restaurant_id": "234567"
+  }
+  ,
+  {
+    "address": {
+      "building": "345",
+      "coord": [-73.988873, 40.731763],
+      "street": "9th Ave",
+      "zipcode": "100034"
+    },
+    "cuisine": "Cafeteria",
+    "grades": [
+      {"date": {"$date": 1507237200000}, "grade": "A", "score": 89},
+      {"date": {"$date": 1483578000000}, "grade": "A", "score": 91},
+      {"date": {"$date": 1472715600000}, "grade": "B", "score": 86}
+    ],
+    "name": "Cafeteria 345",
+    "restaurant_id": "345678"
+  }
+  ,
+  {
+    "address": {
+      "building": "456",
+      "coord": [-73.971090, 40.780888],
+      "street": "Lexington Ave",
+      "zipcode": "100220"
+    },
+    "cuisine": "Italian",
+    "grades": [
+      {"date": {"$date": 1541173200000}, "grade": "A", "score": 85},
+      {"date": {"$date": 1527032400000}, "grade": "A", "score": 92},
+      {"date": {"$date": 1513027200000}, "grade": "B", "score": 78}
+   
+    ],
+    "name": "Cafeteria 543",
+    "restaurant_id": "852963"
+  }
+  ,
+  {
+    "address": {
+      "building": "1234",
+      "coord": [-73.98274, 40.719885],
+      "street": "10th Ave",
+      "zipcode": "100018"
+    },
+    "cuisine": "Cafeteria",
+    "grades": [
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 90 },
+      { "date": { "$date": 1583020800000 }, "grade": "A", "score": 75 },
+      { "date": { "$date": 1546300800000 }, "grade": "B", "score": 60 }
+    ],
+    "name": "Cafeteria NYC",
+    "restaurant_id": "301235"
+  },
+  {
+    "address": {
+      "building": "4567",
+      "coord": [-73.983634, 40.768407],
+      "street": "Lexington Avenue",
+      "zipcode": "100220"
+    },
+    "cuisine": "Italian",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 85 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 70 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 80 }
+    ],
+    "name": "Il Forno Cafeteria",
+    "restaurant_id": "301235"
+  },
+  {
+    "address": {
+      "building": "7890",
+      "coord": [-73.986921, 40.753217],
+      "street": "Park Avenue",
+      "zipcode": "100160"
+    },
+    "cuisine": "Cafeteria",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 95 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 92 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 88 }
+    ],
+    "name": "Park Avenue Cafeteria",
+    "restaurant_id": "30123569"
+  },
+  {
+    "address": {
+      "building": "1011",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "102000"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "National Cafe",
+    "restaurant_id": "958365"
+  }
+  ,
+  {
+    "address": {
+      "building": "4578",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "785623"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "We cafeteria",
+    "restaurant_id": "855278"
+  }
+  ,
+  {
+    "address": {
+      "building": "3050",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "538641"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Cafe Durga",
+    "restaurant_id": "159863"
+  }
+  ,
+  {
+    "address": {
+      "building": "4253",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "449977"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Lord of the drinks",
+    "restaurant_id": "253689"
+  }
+  ,
+  {
+    "address": {
+      "building": "9635",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "772200"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Theka",
+    "restaurant_id": "362589"
+  }
+  ,
+  {
+    "address": {
+      "building": "3647",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "365789"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Mexicana Cafeteria",
+    "restaurant_id": "758142"
+  }
+  ,
+  {
+    "address": {
+      "building": "8631",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "556367"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Cafeteria Mexicana",
+    "restaurant_id": "752986"
+  }
+  ,
+  {
+    "address": {
+      "building": "1258",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "880044"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Republic cafe",
+    "restaurant_id": "753951"
+  }
+  ,
+  {
+    "address": {
+      "building": "5278",
+      "coord": [-73.993387, 40.748947],
+      "street": "California Avenue",
+      "zipcode": "440011"
+    },
+    "cuisine": "Mexican",
+    "grades": [
+      { "date": { "$date": 1633046400000 }, "grade": "A", "score": 91 },
+      { "date": { "$date": 1609459200000 }, "grade": "A", "score": 78 },
+      { "date": { "$date": 1583020800000 }, "grade": "B", "score": 82 }
+    ],
+    "name": "Cafeteria Mexicana",
+    "restaurant_id": "789456"
+  }
+ ]
+
+ 1) Write a MongoDB query to display the fields restaurant_id, name, and zip code but exclude the field _id for all the documents in the collection restaurant.
+
+ db.Restaurants.find({}, {_id: 0, restaurant_id: 1, name: 1, "address.zipcode": 1})
+
+
+ 2) Write a MongoDB query to arrange the name of the restaurants in ascending order along with all the columns.
+
+ db.Restaurants.find().sort({name: 1})
+
+
+ 3) Write a MongoDB query to display the first 5 restaurant in ascending order of name field.
+
+ db.Restaurants.find().sort({name: 1}).limit(5)
+
+
+4) Write a MongoDB query to display the next 5 restaurants after skipping first 5.
+
+db.Restaurants.find().sort({name: 1}).skip(5).limit(5)
+
+
+5) Write a MongoDB query to find the restaurants who achieved a score more than 90.
+
+db.Restaurants.find({"grades.score": {$gt: 90}})
+
+
+6) Write a MongoDB query to find the restaurants that achieved a score, more than 80 but less than 100.
+
+db.Restaurants.find({ "grades.score": { $gt: 80, $lt: 100 } })
+
+
+7) Write a MongoDB query to find the restaurant name, longitude and latitude and cuisine for those restaurants which contain 'Caf' as first three letters of its name.
+
+db.Restaurants.find(
+   { name: { $regex: /^Caf/ } },
+   { name: 1, "address.coord": 1, cuisine: 1, _id: 0 }
+)
+
+
+8) Write a MongoDb query to update grade B to A in all documents.
+
+db.Restaurants.updateMany(
+  { "grades.grade": "B" },
+  { $set: { "grades.$.grade": "A" } }
+)
+
+
+
+
